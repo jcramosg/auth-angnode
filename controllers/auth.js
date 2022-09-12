@@ -126,7 +126,7 @@ const revalidarToken = async(req, res = response) => {
 
     return res.json({
         ok: true,
-        uid: uid,
+        uid,
         name: dbUser.name,
         email: dbUser.email,
         token
